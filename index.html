@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initialscale=1.0">
- <title>Site Freixo </title>
- <link rel="stylesheet" href="style.css"><link
-href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstra
-p.min.css" rel="stylesheet"
- integrity="sha384-
-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Freixo</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Fontes Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Libre+Baskerville&family=Merriweather&display=swap" rel="stylesheet">
+  <!-- Font Awesome (ícones) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoDbZz+U5iPoT4KJk7SkWcY8WcHJ0k8Vx08H+VU5mT94wrF" crossorigin="anonymous"></script>
 
-
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-  </style>
 </head>
+
 
 <body>
   <header>
@@ -49,38 +46,38 @@ crossorigin="anonymous">
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">A casa</a>
+          <a class="nav-link active" aria-current="page" href="#casa">A casa</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#atv" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Atividades
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#durao">Miradouro de Penedo Durão</a></li>
+            <li><a class="dropdown-item" href="#durao">Barragem de Saucelle</a></li>
+            <li><a class="dropdown-item" href="#durao">Miradouro de Mafeito</a></li>
           </ul>
         </li>
         
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#gastro" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Gastronomia 
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#gastro">Bacalhau</a></li>
+            <li><a class="dropdown-item" href="#gastro">Alheira</a></li>
+            <li><a class="dropdown-item" href="#gastro">Vitela</a></li>
           </ul>
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#vinho" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Vinhos
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#vinho">Branco</a></li>
+            <li><a class="dropdown-item" href="#vinho">Tinto</a></li>
+            <li><a class="dropdown-item" href="#vinho">Rose</a></li>
           </ul>
         </li>
 
@@ -89,9 +86,9 @@ crossorigin="anonymous">
             O Azeite
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#azeite1">A Criacao</a></li>
+            <li><a class="dropdown-item" href="#azeite2">Bay Now</a></li>
+            
           </ul>
         </li>
       </ul>
@@ -99,10 +96,12 @@ crossorigin="anonymous">
   </div>
 </nav>
 
-  </header>
- 
-  <div class="container py-5" id="historia">
-    <h2 class="mb-4 text-center">A História</h2>
+</header>
+
+<body>
+  <main>
+    <div class="container py-5" id="historia">
+      <h2 class="mb-4 text-center">A História</h2>
   
     <div class="row align-items-center g-4">
       <!-- Coluna da imagem -->
@@ -119,18 +118,19 @@ crossorigin="anonymous">
     </div>
   </div>
   
-  <div data-aos="fade-up">
+  <div id="atv" data-aos="fade-up">
     <h2 style="text-align: center; padding-bottom: 50px;" >Atividades</h2>
     <div class="row text-center">
       <!-- Atividade: Nossa Sra. do Douro -->
       <div class="col-md-4" data-aos="fade-right" data-aos-delay="100">
-        <h5 > Nossa Sra. do Douro  </h5>
+        <h5 id="durao" > Miradouro de Penedo Durão  </h5>
         <br>
         <img src="Santa300.png" alt="Azeite artesanal" class="img-fluid" style="border-radius: 10px; box-shadow: 0px 2px 2px #ffa500; max-width: 200px; max-height: 200px;">
         <br><br>
-        <p>O Poder dos Sentidos… Integrado em toda a sua extensão territorial, no Parque do Douro Internacional, Freixo de Espada à Cinta dispõe de uma rede de miradouros e de outros locais de situação estratégica, de onde se pode apreciar todo o esplendor da natureza.</p>
-        <button class="btn btn-warning btn-sm" onclick="window.open('https://goo.gl/maps/xyz');">Ver no Mapa</button>
+        <p>O Miradouro da Nossa Senhora do Douro, em Freixo de Espada à Cinta, oferece uma vista deslumbrante sobre o rio Douro e as paisagens vinícolas da região. Situado em um ponto estratégico, o miradouro permite aos visitantes contemplar a beleza natural da área, com as suas encostas íngremes e os vinhedos que se estendem até onde a vista alcança. Um local ideal para momentos de tranquilidade e apreciação da natureza, além de ser um ponto de visitação popular para quem passa pela região.</p>
+        <button class="btn btn-warning btn-sm" onclick="window.open('https://maps.app.goo.gl/L2WTEtuj1pCxa64P6');">Ver no Mapa</button>
         <br><br><br><br>
+    
       </div>
       
   
@@ -141,19 +141,19 @@ crossorigin="anonymous">
         <br>
         <img src="Barragem300.png" alt="Azeite artesanal" class="img-fluid" style="border-radius: 10px; box-shadow: 0px 2px 2px #ffa500; max-width: 200px; max-height: 200px;">
         <br><br>
-        <p>O Poder dos Sentidos… Integrado em toda a sua extensão territorial, no Parque do Douro Internacional, Freixo de Espada à Cinta dispõe de uma rede de miradouros e de outros locais de situação estratégica, de onde se pode apreciar todo o esplendor da natureza.</p>
+        <p> Barragem de Saucelle, localizada no rio Douro, na região de Trás-os-Montes, é uma importante infraestrutura hidroelétrica. Construída nos anos 1980, a barragem forma um grande lago que contribui para a produção de energia e regula o caudal do rio. Além de sua função energética, a área ao redor da barragem é conhecida por sua paisagem deslumbrante, com vistas panorâmicas sobre o rio e as montanhas circundantes, tornando-se um local popular para atividades ao ar livre, como caminhadas e observação de aves. A Barragem de Saucelle também é um ponto de interesse turístico, oferecendo aos visitantes a oportunidade de apreciar a beleza natural da região.</p>
         
-        <button class="btn btn-warning btn-sm" onclick="window.open('https://goo.gl/maps/xyz');">Ver no Mapa</button>
+        <button class="btn btn-warning btn-sm" onclick="window.open('https://maps.app.goo.gl/FgLbEckmPc45E6Db7');">Ver no Mapa</button>
         <br><br><br><br>
       </div>
   
       <!-- Atividade: Miradouro Espanha -->
       <div class="col-md-4" data-aos="fade-right" data-aos-delay="100">
-        <h5 > Miradouro Espanha  </h5>
+        <h5 > Miradouro de Mafeito  </h5>
         <br>
         <img src="Barragem300.png" alt="Azeite artesanal" class="img-fluid" style="border-radius: 10px; box-shadow: 0px 2px 2px #ffa500; max-width: 200px; max-height: 200px;">
         <br><br>
-        <p>O Poder dos Sentidos… Integrado em toda a sua extensão territorial, no Parque do Douro Internacional, Freixo de Espada à Cinta dispõe de uma rede de miradouros e de outros locais de situação estratégica, de onde se pode apreciar todo o esplendor da natureza.</p>
+        <p>O Miradouro de Mafeito, oferece uma vista panorâmica incrível sobre o rio Douro e a região circundante. Situado em um ponto elevado, é um local ideal para contemplar a beleza natural da área, com destaque para os vinhedos e as paisagens montanhosas. O miradouro é um excelente ponto de parada para quem visita a região, proporcionando momentos de tranquilidade e apreciação do cenário.</p>
         <button class="btn btn-warning btn-sm" onclick="window.open('https://goo.gl/maps/xyz');">Ver no Mapa</button>
         <br><br><br><br>
       </div>
@@ -163,8 +163,8 @@ crossorigin="anonymous">
   
 
 
-  <h2 style="text-align: center;">A Casa</h2>
-  <div class="carousel-wrapper">
+  <h2 id="casa" style="text-align: center;">A Casa</h2>
+  <div  class="carousel-wrapper">
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -210,7 +210,7 @@ crossorigin="anonymous">
 
 
   <div >
-    <h2 style="text-align: center;">Gastronomia</h2>
+    <h2 id="gastro" style="text-align: center;">Gastronomia</h2>
     <br><br>
     <div class="row text-center">
       <div class="col-md-4">
@@ -218,7 +218,7 @@ crossorigin="anonymous">
         <br>
         <img src="bacalhau.png" alt="Azeite local" class="img-fluid" style="border-radius: 10px; box-shadow: 0px 4px 8px #ffa500;max-width: 200px; max-height: 200px;">
         <br><br>
-        <p>O azeite da região é produzido com azeitonas cuidadosamente colhidas e extraído a frio, mantendo todas as suas propriedades e sabores intensos.</p>
+        <p>O bacalhau é um prato típico da gastronomia local, com destaque pela sua qualidade e sabor. Preparado tradicionalmente desfiado, e muitas vezes cozido com batatas, cebolas e outros temperos que realçam o sabor único do peixe. A receita, que combina simplicidade e autenticidade, é um reflexo das tradições culinárias da região, sendo muito apreciada tanto pelos habitantes locais quanto pelos visitantes. O bacalhau em Freixo de Espada à Cinta é uma das delícias que fazem parte da rica herança gastronômica do concelho.</p>
         <a class="btn btn-secondary" href="#">Ver mais &raquo;</a>
         <br><br><br><br>
       </div>
@@ -228,17 +228,19 @@ crossorigin="anonymous">
         <br>
         <img src="alheira.png" alt="Azeite local" class="img-fluid" style="border-radius: 10px; box-shadow: 0px 4px 8px #ffa500;max-width: 200px; max-height: 200px;">
         <br><br>
-        <p>O azeite da região é produzido com azeitonas cuidadosamente colhidas e extraído a frio, mantendo todas as suas propriedades e sabores intensos.</p>
+        <p>A alheira é um enchido típico da gastronomia portuguesa, especialmente popular na região de Trás-os-Montes, incluindo em Freixo de Espada à Cinta. Originalmente criada por judeus portugueses durante o período da Inquisição, a alheira foi feita com carne de aves, como frango ou pato, misturada com pão, alho e outros temperos, como forma de disfarçar o consumo de carne suína, proibida para os judeus da época.
+        Atualmente, a alheira é apreciada por seu sabor único e versatilidade. Pode ser grelhada, frita ou assada, e é frequentemente servida como prato principal ou entrada, acompanhada de arroz, batatas ou salada. A alheira de Freixo de Espada à Cinta, feita de forma artesanal, é especialmente valorizada pela sua qualidade e autenticidade.</p>
         <a class="btn btn-secondary" href="#">Ver mais &raquo;</a>
         <br><br><br><br>
       </div>
   
       <div class="col-md-4">
-        <h5>Vitela</h5>
+        <h5>Medalhao</h5>
         <br>
         <img src="carne.png" alt="Azeite artesanal" class="img-fluid" style="border-radius: 10px; box-shadow: 0px 4px 8px #ffa500;max-width: 200px; max-height: 200px;">
         <br><br>
-        <p>O azeite artesanal é utilizado em diversos pratos regionais, realçando o sabor dos alimentos e valorizando a tradição da produção local.</p>
+        <p>O medalhão é um prato tradicional da gastronomia de Freixo de Espada à Cinta e de várias regiões de Portugal, preparado a partir de cortes de carne, geralmente de vaca, que são macios e suculentos. O medalhão é um pedaço de carne, normalmente lombo ou filé, cortado em rodelas grossas e cozido com temperos como alho, vinho, ervas e azeite. O prato pode ser grelhado, frito ou assado, e é muitas vezes servido com acompanhamentos como arroz, batatas, legumes ou até molhos especiais.
+        A receita do medalhão é simples, mas destaca a qualidade da carne, sendo muito apreciada pela sua textura tenra e sabor intenso. Este prato é uma verdadeira iguaria para quem visita a região e deseja experimentar a autêntica cozinha portuguesa.</p>
         <a class="btn btn-secondary" href="#">Ver mais &raquo;</a>
         <br><br><br><br>
       </div>
@@ -247,7 +249,7 @@ crossorigin="anonymous">
   
   
   <div class="mb-5 text-center">
-    <h2 class="mb-4">O que beber na região</h2>
+    <h2 id="vinho" class="mb-4">O que beber na região</h2>
     <div class="row justify-content-center">
       <div class="col-lg-4 mb-5">
         <img src="tinto.png" alt="Vinho tinto" class="rounded-circle mb-3" width="200" height="200" style="object-fit: cover;">
@@ -260,14 +262,14 @@ crossorigin="anonymous">
         <img src="branco.png" alt="Vinho branco" class="rounded-circle mb-3" width="200" height="200" style="object-fit: cover;">
         <h3>Vinho branco</h3>
         <p>O vinho branco é produzido sem as cascas das uvas, o que evita a coloração escura e dá origem a tons dourados suaves.</p>
-        <a class="btn btn-secondary" href="#">Ver mais &raquo;</a>
+        <a class="btn btn-secondary" href="https://pt.wikipedia.org/wiki/Vinho_branco">Ver mais &raquo;</a>
       </div>
   
       <div class="col-lg-4 mb-5">
         <img src="rose1.jpg" alt="Vinho rosé" class="rounded-circle mb-3" width="200" height="200" style="object-fit: cover;">
         <h3>Vinho rosé</h3>
         <p>O rosé resulta de fermentação com breve contato entre cascas e mosto, conferindo coloração rosada e leve sabor tânico.</p>
-        <a class="btn btn-secondary" href="#">Ver mais &raquo;</a>
+        <a class="btn btn-secondary" href="https://pt.wikipedia.org/wiki/Vinho_ros%C3%A9">Ver mais &raquo;</a>
       </div>
     </div>
 
@@ -275,7 +277,7 @@ crossorigin="anonymous">
 
 
     <div class="container py-5" id="historia">
-      <h2 class="mb-4 text-center">O Azeite </h2>
+      <h2 id="azeite1" class="mb-4 text-center">O Azeite </h2>
     <br><br>
       <div class="row align-items-center g-4">
         <!-- Coluna da imagem -->
@@ -304,7 +306,7 @@ crossorigin="anonymous">
     </div>
     
 
-    <div class="row text-center justify-content-center">
+    <div id="azeite2" class="row text-center justify-content-center">
       <div class="card" style="width: 18rem;">
         <img src="azeite200.JPG" alt="Azeite artesanal" class="img-fluid" style="border-radius: 10px; box-shadow: 0px 2px 2px #ffa500;">
         <div class="card-body">
@@ -364,27 +366,20 @@ crossorigin="anonymous">
  
   
     <div class="mb-5">
+      <br> <br>
       <h3 class="mb-4 text-center">Dúvidas? Estamos aqui.</h3>
-      <br><br>
-      <div class="row text-center">
-        <div class="col-12 col-md-4 mb-4 mb-md-0">
-          <h4 class="mb-3">Envie uma mensagem</h4>
-          <p class="fs-5">Entre em contato através do meu e-mail ou pelas redes sociais.</p>
+      <h4 >Envie uma mensagem</h4>
+      <p style="text-align: center;" >Entre em contato através do formulario, responderemoas todas as suas questãos.</p>
+        <div class="text-center mt-5">
+          <a href="#azeite2" target="_blank" class="btn btn-primary btn-lg">Buy Now</a>
         </div>
-    
-        <div class="col-12 col-md-4 mb-4 mb-md-0">
-          <h4 class="mb-3">Conecte-se comigo</h4>
-          <p class="fs-5">Siga-me nas redes sociais para acompanhar minhas novidades.</p>
-        </div>
-      </div>
-    
-      <div class="text-center mt-5">
-        <a href="contactos.html" target="_blank" class="btn btn-primary btn-lg">Reserve já</a>
-      </div>
     </div>
+      
+    
+      
 
 
-    <div class="container">
+     <div class="container">
   <div id="form" class="bg-dark text-white py-4 px-4 mt-5 mx-auto" style="max-width: 700px; border-radius: 10px;">
     <h3 class="text-center mb-4">Tire suas dúvidas</h3>
     <form>
@@ -421,7 +416,7 @@ crossorigin="anonymous">
     </form>
   </div>
 </div>
-
+    
 
  </main>
 
@@ -430,15 +425,8 @@ crossorigin="anonymous">
 
  <footer class="bg-dark text-light py-3">
         <div class="container text-center">
-        <p>William Cruz | Web Developer | <a href="politica-privacidade.html" class="text-light">Política de Privacidade</a></p>
- </div>
-
+        <p>@2025 William Cruz | Web Developer | <a href="politica-privacidade.html" class="text-light">Política de Privacidade</a></p> </div>
 
  </footer>
-
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
 </html>

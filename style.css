@@ -75,7 +75,7 @@
 }
 
 .carousel-inner img {
-  max-height: 400px; /* ajuste a altura conforme seu gosto */
+  max-height: 300px; /* ajuste a altura conforme seu gosto */
   object-fit: cover;
   width: 100%;
 }
@@ -90,7 +90,8 @@
 }
 
 #carouselExampleCaptions {
-  width: 90%;
+  width: 80%;
+  
 }
 
 .carousel-inner img {
