@@ -3,14 +3,18 @@
  *{
   font-family: 'PT Serif', serif !important;
 
-
  }
 
+ html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
 
   body {
     background-color: #FFFFFF;
     font-family: "Lato", sans-serif!important;
     line-height: 1.!important;
+    
   } 
 
   #nav{
@@ -75,9 +79,9 @@
 }
 
 .carousel-inner img {
-  max-height: 300px; /* ajuste a altura conforme seu gosto */
+  max-height: 0px; /* ajuste a altura conforme seu gosto */
   object-fit: cover;
-  width: 100%;
+  width: 10%;
 }
 
 
@@ -85,27 +89,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 50vh;
+  min-height: 1vh;
 
 }
 
 #carouselExampleCaptions {
-  width: 80%;
+  width: 70%;
+  height: 20%;
   
 }
 
 .carousel-inner img {
-  max-height: 50%;
+  max-height: 20%;
   object-fit: cover;
 }
 
 .carousel-caption {
                     /* fundo escuro com transparência */
   padding: 1rem;
-  border-radius: 10px;
-}
-.carousel-caption p {
-
+  border-radius: 1px;
 }
 
  #forn{
